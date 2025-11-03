@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="checkbox" id="mobile-menu-toggle" hidden />
+      <header>
+        <h2><span class="ilk">WEB</span><span class="ikinci">STUDIO</span></h2>
+        <label for="mobile-menu-toggle" class="menu-button"
+          ><svg class="icon icon-izgara-menu">
+            <use xlink:href="symbol-defs.svg#icon-izgara-menu"></use>
+          </svg>
+        </label>
+      </header>
+      <nav class="mobile-nav">
+        <label for="mobile-menu-toggle" class="menu-close"
+          ><svg class="icon icon-izgaraclose">
+            <use xlink:href="symbol-defs.svg#icon-izgaraclose"></use>
+          </svg>
+        </label>
+        <ul>
+          <li class="st"><a href="Studio">Studio</a></li>
+
+          <li><a href="Portfolio">Portfolio</a></li>
+
+          <li><a href="Contacts">Contacts</a></li>
+        </ul>
+
+        <address>
+          <a href="mailto:info@devstudio.com" class="email"
+            >info@devstudio.com</a
+          >
+          <a href="tel:+110001111111" class="tel">+11 (000) 111-11-11</a>
+        </address>
+      </nav>
+      <main>
+        <div class="isopen">
+          <div class="openflex">
+            <div class="closesvg">
+              <div class="closesvg1">
+                <svg class="icon icon-blackclose">
+                  <use
+                    xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-blackclose"
+                  ></use>
+                </svg>
+              </div>
+            </div>
+            <h3>Leave your contacts and we will call you back</h3>
+            <form>
+              <div class="forum3">
+                <div class="namea">
+                  <p>Name</p>
+                  <label class="formname">
+                    <input type="text" name="name" required autofocus />
+                    <svg class="icon icon-formnameasli">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-formnameasli"
+                      ></use>
+                    </svg>
+                  </label>
+                </div>
+
+                <div class="tela">
+                  <p>Phone</p>
+                  <label class="fromtel">
+                    <input type="number" name="tel" /><svg
+                      class="icon icon-formtelasli"
+                    >
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-formtelasli"
+                      ></use>
+                    </svg>
+                  </label>
+                </div>
+
+                <div class="emaila">
+                  <p>Email</p>
+                  <label class="formemail">
+                    <input type="email" name="email" required /><svg
+                      class="icon icon-formemailasli"
+                    >
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-formemailasli"
+                      ></use>
+                    </svg>
+                  </label>
+                </div>
+
+                <div>
+                  <p>Comment</p>
+
+                  <textarea
+                    class="mesaj"
+                    name="textarea"
+                    placeholder="Text input"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="checkboxdiv">
+                <input type="checkbox" />
+                <p class="accept">
+                  I accept the terms and conditions of the
+                  <span class="privacy">Privacy Policy</span>
+                </p>
+              </div>
+              <div class="sendi">
+                <button type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <section class="anabaslik">
+          <h1>Effective Solutions<br />for Your Business</h1>
+          <button type="button">Order Service</button>
+        </section>
+
+        <section class="bilgi1">
+          <ul class="bilgi1a">
+            <li>
+              <div class="iconlarim">
+                <svg class="icon icon-antenna1">
+                  <use
+                    xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-antenna1"
+                  ></use>
+                </svg>
+              </div>
+              <h3>Strategy</h3>
+              <p>
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+
+            <li>
+              <div class="iconlarim">
+                <svg class="icon icon-clock1">
+                  <use
+                    xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-clock1"
+                  ></use>
+                </svg>
+              </div>
+              <h3>Punctuality</h3>
+              <p>
+                ZXC Bring the key message to the brand's audience for the best
+                price within the shortest possible time.
+              </p>
+            </li>
+
+            <li>
+              <div class="iconlarim">
+                <svg class="icon icon-diagram1">
+                  <use
+                    xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-diagram1"
+                  ></use>
+                </svg>
+              </div>
+              <h3>Diligence</h3>
+              <p>
+                Research and confirm brands with the strongest digital growth
+                opportunities and minimize risk.
+              </p>
+            </li>
+
+            <li>
+              <div class="iconlarim">
+                <svg class="icon icon-astronaut1">
+                  <use
+                    xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-astronaut1"
+                  ></use>
+                </svg>
+              </div>
+
+              <h3>Technologies</h3>
+              <p>
+                Desing practice focused on digital experiences.We bring forth e
+                deep passion for problem-solving
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="bilgi2">
+          <h2>Our Team</h2>
+          <ul class="bilgi2a">
+            <li>
+              <img
+                src="images/a.jpg"
+                alt="takimin birinci uyesi"
+                width="264"
+                height="260"
+              />
+
+              <h3>Mark Guerrero</h3>
+              <p>Product Desinger</p>
+
+              <ul class="icons">
+                <li>
+                  <div class="medya">
+                    <svg class="icon icon-instagram2">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-instagram2"
+                      ></use>
+                    </svg>
+                  </div>
+                </li>
+                <li>
+                  <div class="medya">
+                    <svg class="icon icon-twitter1">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-twitter1"
+                      ></use>
+                    </svg>
+                  </div>
+                </li>
+                <li>
+                  <div class="medya">
+                    <svg class="icon icon-face">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-face"
+                      ></use>
+                    </svg>
+                  </div>
+                </li>
+                <li>
+                  <div class="medya">
+                    <svg class="icon icon-linkedin1">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-linkedin1"
+                      ></use>
+                    </svg>
+                  </div>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <img
+                src="images/b.jpg"
+                alt="takimin ikinci uyesi"
+                width="264"
+                height="260"
+              />
+              <h3>Tom Ford</h3>
+              <p>Frontend Developer</p>
+
+              <ul class="icons">
+                <li>
+                  <div class="medya">
+                    <svg class="icon icon-instagram2">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-instagram2"
+                      ></use>
+                    </svg>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="medya">
+                    <svg class="icon icon-twitter1">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-twitter1"
+                      ></use>
+                    </svg>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="medya">
+                    <svg class="icon icon-face">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-face"
+                      ></use>
+                    </svg>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="medya">
+                    <svg class="icon icon-linkedin1">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-linkedin1"
+                      ></use>
+                    </svg>
+                  </div>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <img
+                src="images/c.jpg"
+                alt="takimin ucuncu uyesi"
+                width="264"
+                height="260"
+              />
+              <h3>Camila Garcia</h3>
+              <p>Marketing</p>
+
+              <ul class="icons">
+                <li>
+                  <div class="medya">
+                    <svg class="icon icon-instagram2">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-instagram2"
+                      ></use>
+                    </svg>
+                  </div>
+                </li>
+                <li>
+                  <div class="medya">
+                    <svg class="icon icon-twitter1">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-twitter1"
+                      ></use>
+                    </svg>
+                  </div>
+                </li>
+                <li>
+                  <div class="medya">
+                    <svg class="icon icon-face">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-face"
+                      ></use>
+                    </svg>
+                  </div>
+                </li>
+                <li>
+                  <div class="medya">
+                    <svg class="icon icon-linkedin1">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-linkedin1"
+                      ></use>
+                    </svg>
+                  </div>
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              <img
+                src="images/d.jpg"
+                alt="takimin dorduncu uyesi"
+                width="264"
+                height="260"
+              />
+              <h3>Daniel Wilson</h3>
+              <p>UI Designer</p>
+
+              <ul class="icons">
+                <li>
+                  <div class="medya">
+                    <svg class="icon icon-instagram2">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-instagram2"
+                      ></use>
+                    </svg>
+                  </div>
+                </li>
+                <li>
+                  <div class="medya">
+                    <svg class="icon icon-twitter1">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-twitter1"
+                      ></use>
+                    </svg>
+                  </div>
+                </li>
+                <li>
+                  <div class="medya">
+                    <svg class="icon icon-face">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-face"
+                      ></use>
+                    </svg>
+                  </div>
+                </li>
+                <li>
+                  <div class="medya">
+                    <svg class="icon icon-linkedin1">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-linkedin1"
+                      ></use>
+                    </svg>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <section class="bilgi3">
+        <h2>Our Portfolio</h2>
+        <ul class="bilgi3a">
+          <li>
+            <div class="cash">
+              <img
+                src="images/21.jpg"
+                alt="portfolionun birinci resmi"
+                width="360"
+                height="300"
+              />
+              <div class="cashp">
+                <span
+                  >14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App</span
+                >
+              </div>
+            </div>
+            <div>
+              <h3>Banking App</h3>
+              <p>App</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="cash">
+              <img
+                src="images/22.jpg"
+                alt="portfolionun ikinci resmi"
+                width="360"
+                height="300"
+              />
+              <div class="cashp">
+                <span
+                  >14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App</span
+                >
+              </div>
+            </div>
+            <div>
+              <h3>Cashless Payment</h3>
+              <p>Marketing</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="cash">
+              <img
+                src="images/23.jpg"
+                alt="portfolionun ucuncu resmi"
+                width="360"
+                height="300"
+              />
+              <div class="cashp">
+                <span
+                  >14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App</span
+                >
+              </div>
+            </div>
+            <div>
+              <h3>Meditation App</h3>
+              <p>App</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="cash">
+              <img
+                src="images/24.jpg"
+                alt="portfolionun dorduncu resmi"
+                width="360"
+                height="300"
+              />
+              <div class="cashp">
+                <span
+                  >14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App</span
+                >
+              </div>
+            </div>
+
+            <div>
+              <h3>Taxi Service</h3>
+              <p>Marketing</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="cash">
+              <img
+                src="images/25.jpg"
+                alt="portfolionun besinci resmi"
+                width="360"
+                height="300"
+              />
+              <div class="cashp">
+                <span
+                  >14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App</span
+                >
+              </div>
+            </div>
+            <div>
+              <h3>Screen Illustrations</h3>
+              <p>Desing</p>
+            </div>
+          </li>
+
+          <li>
+            <div class="cash">
+              <img
+                src="images/26.jpg"
+                alt="portfolionun altinci resmi"
+                width="360"
+                height="300"
+              />
+              <div class="cashp">
+                <span
+                  >14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App</span
+                >
+              </div>
+            </div>
+            <div>
+              <h3>Online Courses</h3>
+              <p>Marketing</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <footer>
+        <ul class="son">
+          <li>
+            <a href="https://webstudio.com" class="logo">
+              <span class="WEB">WEB</span><span class="STUDIO">STUDIO</span>
+            </a>
+
+            <p>
+              Increase the flow of customers and sales for your business with
+              digital marketing & growth solutions
+            </p>
+          </li>
+
+          <li>
+            <ul class="footer2">
+              <li class="sonp">
+                <p>Social media</p>
+              </li>
+
+              <li>
+                <ul class="iconss">
+                  <li>
+                    <div class="medyaa">
+                      <svg class="icon icon-instagram2">
+                        <use
+                          xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-instagram2"
+                        ></use>
+                      </svg>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="medyaa">
+                      <svg class="icon icon-twitter1">
+                        <use
+                          xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-twitter1"
+                        ></use>
+                      </svg>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="medyaa">
+                      <svg class="icon icon-face">
+                        <use
+                          xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-face"
+                        ></use>
+                      </svg>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="medyaa">
+                      <svg class="icon icon-linkedin1">
+                        <use
+                          xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-linkedin1"
+                        ></use>
+                      </svg>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <form>
+              <div class="footerform">
+                <span>Subscribe</span>
+                <div class="footemail">
+                  <label class="footemail1">
+                    <input
+                      class="footemaila"
+                      type="email"
+                      name="email"
+                      placeholder="E-mail"
+                    />
+                  </label>
+                  <button class="ucak" type="submit">
+                    <span>Subscribe</span>
+                    <svg class="icon icon-formucak">
+                      <use
+                        xlink:href="./images/SVG-sprite/symbol-defs.svg#icon-formucak"
+                      ></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
