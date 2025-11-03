@@ -1,7 +1,14 @@
 h2 {margin: 0px; padding: 0px; box-sizing: border-box; }
 body {font-family: "Roboto", sans-serif;   color: #2e2f42;
   color: #ffffff;}
-  header {
+
+    .container {
+      width: 320px;
+      margin: 0 auto;
+    }
+
+  header {width: 320px;
+    height: 56px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,6 +16,29 @@ body {font-family: "Roboto", sans-serif;   color: #2e2f42;
     position: relative;
     border: 1px solid rgba(231, 233, 252, 1);
   }
+    .ilk {
+      font-family: raleway, sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.2;
+      letter-spacing: 0.03em;
+      vertical-align: middle;
+      text-transform: uppercase;
+      color: #4d5ae5;
+    }
+  
+    .ikinci {
+      font-family: raleway, sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 1.2;
+      letter-spacing: 0.03em;
+      vertical-align: middle;
+      text-transform: uppercase;
+      color: #2e2f42;
+    }
+.isopen {display: none;}
+
 .icon-izgara-menu {width: 24px;
   height: 24px;
   cursor: pointer;
@@ -34,6 +64,7 @@ position: relative;}
 top: 24px;
 right: 24px;
 cursor: pointer;}
+
 .mobile-nav ul {list-style: none; 
   text-align: center; }
 
@@ -47,28 +78,30 @@ font-family: roboto, sans-serif;
   text-decoration: none;}
  
   @media (min-width: 320px) and (max-width: 767px) {
-    .menu-buton { display: block; } }
+    .menu-button { display: block; } }
 
     
 
-    .ilk {
-      font-family: raleway, sans-serif;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 1.2;
-      letter-spacing: 0.03em;
-      vertical-align: middle;
-      text-transform: uppercase;
-      color: #4d5ae5;
-    }
-  
-    .ikinci {
-      font-family: raleway, sans-serif;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 1.2;
-      letter-spacing: 0.03em;
-      vertical-align: middle;
-      text-transform: uppercase;
-      color: #2e2f42;
-    }
+        .anabaslik {width: 320px;
+          height: 432px;
+          display: flex;
+          background-color: #2e2f42;
+          flex-direction: column;
+          align-items: center;
+          background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
+            url("../images/people_office.jpg");
+          z-index: 0;
+          background-position: center;
+          background-size: cover;
+        }
+        .anabaslik h1 {width: 216px;
+          height: 160px;
+          font-family: roboto, sans-serif;  
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 1.2;
+          letter-spacing: 0.02em;
+          text-align: center;
+          color: rgba(255, 255, 255, 1);
+          
+        }
